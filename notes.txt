@@ -260,6 +260,12 @@ str.casefold() is a way to compare strings in a case insensitive manner.
 syntax for deleting a value at key: 'mileage'
     del car['mileage']
 
+Remember that you never want to code something twice, so pull anything into a reusable function that you can
 
+Python case statement is the following syntax:
+
+match (variable):
+    case this thing:
+        return that thing
 
 
