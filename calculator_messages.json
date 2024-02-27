@@ -1,0 +1,7 @@
+{
+    "welcome": "Welcome to the calculator!",
+    "number1": "Pick a number",
+    "number2": "Pick another number",
+    "operator": "Give me the operation that you want to do with those numbers: (1) +, (2) -, (3) *, (4) /",
+    "again": "Would you like to calculate something else?"
+}
