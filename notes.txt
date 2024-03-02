@@ -345,3 +345,28 @@ age = 35
 
 # But this works:
 print(name, age)  # Outputs: Clare 35
+
+Pushing to my remote ghub repository
+
+git remote add origin https://github.com/MMalmfeldt/test.git  #replace test with the appropriate repository name
+git branch -M main
+git push -u origin main
+
+functions
+
+Make sure functions are short and only serve one purpose
+
+    no side effects
+        has side effects if:
+            reassigns nonlocal variable
+            modifies value of any data structure passed as an argument
+            reads from or writes to a file network conn browser or system hardware
+            raises an unhandled exception
+            calls another function that has side effects
+        most function should return a useful value or have a side effect, but not both
+
+Should be at the same level of abstraction with each other
+
+Is python pass by reference or pass by value
+    a combination, whether you can modify the original values or not is determined by the mutability of the types
+
